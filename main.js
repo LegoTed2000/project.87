@@ -17,7 +17,7 @@ function new_image(get_image) {
 		block_image_object.scaleToHeight(block_image_height);
 		block_image_object.set({
 			top: block_y,
-			left: block_y
+			left: block_x
 		});
 		canvas.add(block_image_object);
 	});
@@ -37,7 +37,7 @@ function my_keydown(e) {
 		console.log("r");
 	}
 	if (keyPressed == '71') {
-		block_x = 1100;
+		block_x = 210;
 		// upload green ranger
 		new_image("gr.png");
 		console.log("g")
@@ -56,7 +56,7 @@ function my_keydown(e) {
 		console.log("p");
 	}
 	if (keyPressed == '66') {
-		block_x = 800;
+		block_x = 700;
 		// upload blue ranger'
 		new_image("br.png");
 		console.log("b")
